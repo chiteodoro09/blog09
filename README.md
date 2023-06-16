@@ -7,7 +7,7 @@ Kitting
 Username: kteodoro 
 Password: Te045358
 
-phl.azure@shimz.biz
+phl. azure@shimz.biz
 Shimz@2023
 
 disable auto up
@@ -21,7 +21,7 @@ Cmd OS version
 slmgr /dlv
 
 
-phl.azure@shimz.biz
+phl. azure@shimz.biz
 Shimz@2023
 def@u!tpw
 
@@ -34,4 +34,4 @@ manage-bde -status
 Microsoft Defender Antivirus options
 Windows Security>Virus & Threats> MDAO> Turn ON
 IPG email format 
-PHL_PCNAME@shimz.biz
+PHL_PCNAME @shimz.biz
