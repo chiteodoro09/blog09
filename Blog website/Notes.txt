@@ -1,0 +1,69 @@
+/////////////////////////////////////
+CMD Commands
+OS Version
+slmgr /dlv
+/////////////////////////////////////
+Disable auto update
+bcdedit /set {bootmgr} recoveryenabled No
+bcdedit /set {current} recoveryenabled No
+/////////////////////////////////////
+List Every Driver Installed
+driverquery /FO list /v
+/////////////////////////////////////
+Add Azure Account
+Username: phl.azure@shimz.biz
+Pasword:  Shimz@2023 (Adding Account)
+               def@u!tpw (Login Screen Account)
+---------------------------
+Server Account
+\\192.168.30.15
+Username: kteodoro 
+Password: Te045358
+---------------------------
+Local Shimz Admin Account
+Username: .\shimz
+Password: 	sh1mz
+---------------------------
+Shimz Biz Account 
+Username: teodoro.kiccizaiko@shimz.biz
+Password: k1cc109630487396
+---------------------------
+User Acrobat Account (Adobe)
+Username: UWcode@pcnet.shimz.co.jp
+User password (lock screen>sign in options/password verification)
+---------------------------
+BIM EXAM Laptop Login (No Password)
+Username: .\CAD.BIM.EXAM
+Password: (blank) Just hit enter
+/////////////////////////////////////
+Onedrive Backup 
+right click onedrive > always keep on this device 
+File explorer > Users > lastname.firstname > copy > 192.168.30.25 > archive > backup fast copy > Source C:\users\first name\last name  - Dest \\192.168.30.25\archive\Backup > execute
+/////////////////////////////////////
+Konica Minolta Default Printer installation
+Get printer IP address
+Get user Printer Password
+Printing preferences > Basic tab > User settings > (secure ID Print) Enter user printer password > Ok
+Printing preferences > Basic tab >Authentication/Account Track > (password) Enter user printer password > Verify > Ok
+Back to Printer & Scanners Uncheck Let windows manage my default Printer
+Choose Printer > Click 'Set as default'
+/////////////////////////////////////
+
+Kitting
+
+Change PC name
+---------------------------
+Falcon Cmd run Confirmation
+sc query CSFalconService
+---------------------------
+Bitlocker encryption progress
+manage-bde -status
+---------------------------
+Microsoft Defender Antivirus options
+Windows Security>Virus & Threats> MDAO> Turn ON
+---------------------------
+IPG email format 
+PHL_PCNAME@shimz.biz
+---------------------------
+-Disable Sleep on Power Options (control panel)
+---------------------------
